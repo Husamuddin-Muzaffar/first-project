@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bor
+}
+
+.maindiv{
+     
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F8FA;
+}
+
+.headerdiv{
+       
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2F71C0;
+}
+
+.rast{
+      
+    width:  20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.rast img{
+    height: 20px;
+}
+
+.chap{
+     
+    width:  80%;
+    height: 100%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;    
+}
+
+.lists{
+    display: flex;
+    list-style: none;
+    color: #5ba3ef;
+    padding-bottom: 10px;
+    
+}
+
+.lists li:hover{
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    
+    
+
+}
+
+li{
+    margin: 20px;
+
+}
+
+.middiv{
+      
+    width: 100%;
+    height: 300px;
+    background-color: #5BA3EF;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile{
+       
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.profilephoto{
+    height: 80%;
+    border-radius: 10px;
+}
+
+.bio{
+    /* margin: 20px 0px; */
+       
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    
+    
+}
+
+.hello{
+    color: #FFFFFF;
+    margin: 10px;
+    /* margin-top: 35px; */
+    
+}
+.name{
+    font-size: 35px;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: auto;
+    
+}
+.lorem{
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 80%;
+    text-align: justify;
+    /* margin-bottom: 20px; */
+}
+
+.btn{
+    width: 8%;
+    margin: 10px;
+    background-color: #4179b5;
+    color: white;
+    border-radius: 2px;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+
+.information{
+       
+    width: 70%;
+    height: 300px;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.informationtext{
+    margin: 20px;
+    text-align: justify;
+}
+
+.informationtextp{
+    color: #5BA3EF;
+    
+}
+
+
+.boxdiv{
+        
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F7F8FA;
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+
+.frontend{
+       
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.bigicons{
+background-color: #5BA3EF;
+height: 100px;
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+   
+margin-top: -50px;
+}
+
+.bigicons img{
+height: 60%;
+/* width: 50%; */
+
+}
+   
+
+.divlistfrontend{
+       
+    width: 50%;
+    height: 100%;
+}
+
+
+.frontend h3{
+    text-align: center;
+}
+
+.programlists{
+    display: block;
+    list-style: '✓';
+    text-align: center;
+}
+
+
+.backend{
+       
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divlistbackend{
+       
+    width: 50%;
+    height: 100%;
+}
+
+
+.backend h3{
+    text-align: center;
+}
+
+.others{
+       
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divlistothers{
+       
+    width: 50%;
+    height: 100%;
+}
+
+.others h3{
+    text-align: center;
+}
+
+.frontend,.backend,.others{
+    background-color: white;
+}
+
+.frontend h3,.backend h3,.others h3{
+    margin-top: 30px ;
+}
